@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-weight: 300;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card{
+    width: 20em;
+    background-image: linear-gradient(140deg, transparent 5%, white 5%);
+    padding: 2em 3rem;
+    filter: drop-shadow(0 0 5px rgba(0,0,0, .5));
+}
+
+.cardtitle{
+    font-weight: 300;
+}
+
+.card p{
+    line-height: 1.5;
+    font-weight: bold;
+}
